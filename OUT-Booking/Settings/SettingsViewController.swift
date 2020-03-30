@@ -37,7 +37,7 @@ class SettingsViewController: UIViewController {
     
     @IBAction func didChangeHealthyAction(_ sender: Any) {
         let alertController = UIAlertController(title: "Healthy status changed",
-                                                message: "Whenever you are not feeling good, please remain inside and avoid contact with other people. If the symptoms getting worse, please ask for medical help.", preferredStyle: .alert)
+                                                message: "Whenever you are not feeling good, please remain inside and avoid contact with other people. If the symptoms getting worse, please ask for Medical Help.", preferredStyle: .alert)
         let dismiss = UIAlertAction(title: "OK", style: UIAlertAction.Style.cancel, handler: nil)
         alertController.addAction(dismiss)
         present(alertController, animated: true, completion: nil)
@@ -45,7 +45,7 @@ class SettingsViewController: UIViewController {
     
     @IBAction func didChangeNotificationsSwitch(_ sender: Any) {
          let alertController = UIAlertController(title: "Notifications set",
-                                                 message: "Whenever your GPS location will dramatically change or the altitude of your device get low the application will send you a notification to reminds you the healthy advices for traveling in public places.", preferredStyle: .alert)
+                                                 message: "Whenever your GPS location will dramatically change or the altitude of your device get low the application will send you a notification to remind you the healthy advices for traveling in public places.", preferredStyle: .alert)
          let dismiss = UIAlertAction(title: "OK", style: UIAlertAction.Style.cancel, handler: nil)
          alertController.addAction(dismiss)
          present(alertController, animated: true, completion: nil)

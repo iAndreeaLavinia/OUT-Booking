@@ -1,0 +1,32 @@
+[
+    {
+        "location_name": "Plaza Romania Mall",
+        "level": 1,
+        "information": "Mall with clothing, electronics & food stores, a food court, a cinema & a passport office.",
+        "url": "https://www.plazaromania.ro",
+        "imageName": "plaza",
+        "latitude": 44.42882,
+        "longitude": 26.0354,
+        "visitors": 73
+    },
+    {
+        "location_name": "Cora Lujerului",
+        "level": 2,
+        "information": "Hypermarket",
+        "url": "https://www.cora.ro",
+         "imageName": "cora",
+         "latitude": 44.432094,
+         "longitude": 26.0349327,
+         "visitors": 20
+    },
+    {
+        "location_name": "Mega Image",
+        "level": 3,
+        "information": "Supermarket",
+        "url": "https://www.mega-image.ro",
+        "imageName": "mega",
+        "latitude": 44.4435153,
+        "longitude": 26.0335983,
+        "visitors": 7
+    }
+]
